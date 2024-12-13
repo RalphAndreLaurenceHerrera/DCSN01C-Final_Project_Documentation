@@ -15,7 +15,7 @@ const products = {
         title: "Sago’t Gulaman",
         description: "A classic drink made with tapioca pearls, gelatin, and sweetened arnibal syrup.",
         image: "https://www.kawalingpinoy.com/wp-content/uploads/2018/12/sago-at-gulaman-5.jpg",
-        url: "https://ralphandrelaurenceherrera.github.io/DCSN01C-Final_Project_Documentation/agot-gulaman.html"
+        url: "https://ralphandrelaurenceherrera.github.io/DCSN01C-Final_Project_Documentation/sagot-gulaman.html"
     },
     mango: {
         title: "Mango Sago",
