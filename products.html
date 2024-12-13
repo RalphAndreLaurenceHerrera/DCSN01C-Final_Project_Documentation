@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Filipino Frozen Products</title>
+    <link rel="stylesheet" href="design.css">
+    <script src="main-functions.js"></script>
+</head>
+<body>
+    <div class="navbar">
+        <a href="index.html" class="logo-link">
+            <div class="logo-title">
+                <img src="logo.png" alt="Logo" class="logo">
+                <span class="title">Filipino Frozen Products</span>
+            </div>
+        </a>
+        <a href="products.html">Products</a>
+        <a href="about-us.html">About</a>
+        <a href="contact-us.html">Contact</a>
+    </div>
+    <div class="page">
+        <div class="main">
+            <h1>Our Products</h1>
+            <div class="button-container">
+                <button onclick="openProduct('mais')">Mais con Yelo</button>
+                <button onclick="openProduct('ice')">Ice Scramble</button>
+                <button onclick="openProduct('sago')">Sago’t Gulaman</button>
+                <button onclick="openProduct('mango')">Mango Sago</button>
+                <button onclick="openProduct('buko')">Buko Pandan</button>
+                <button onclick="openProduct('halo')">Halo-Halo</button>
+            </div>
+
+            <div class="product-details" id="product-details">
+                <h2 id="product-title"></h2>
+                <p id="product-description"></p>
+                <img id="product-image" src="" alt="Product Image">
+                <button onclick="closeProduct()" style="margin-top: 10px; background-color: #f44336;">Close</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
