@@ -77,7 +77,11 @@ body {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 30px;
 }
 
 p{
@@ -93,7 +97,7 @@ p{
 }
 
 .button-container button {
-    background-color: #4CAF50;
+    background-color: #B8EA9C;
     color: white;
     border: none;
     padding: 15px 20px;
@@ -103,7 +107,7 @@ p{
 }
 
 .button-container button:hover {
-    background-color: #45a049;
+    background-color: #a8d48e;
 }
 
 .product-details {
@@ -114,4 +118,37 @@ p{
 .product-details img {
     max-width: 300px;
     margin-top: 20px;
+}
+
+.product-details {
+    display: none;
+}
+
+.description-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#product-description {
+    flex: 1;
+}
+
+#learn-more-btn {
+    padding: 10px 15px;
+    cursor: pointer;
+    background-color: #EAA79C;
+    border: none;
+    border-radius: 5px;
+}
+
+.products img {
+    max-width: 300px;
+    margin-top: 20px;
+}
+
+.products p{
+    font-size: 15px;
+    padding-left: 100px;
+    padding-right: 100px;
 }

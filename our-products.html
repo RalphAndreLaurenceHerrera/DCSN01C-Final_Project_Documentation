@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Filipino Frozen Products</title>
+    <title>Filipino Frozen Products - Our Products</title>
     <link rel="stylesheet" href="design.css">
     <script src="main-functions.js"></script>
 </head>
@@ -13,15 +13,15 @@
                 <span class="title">Filipino Frozen Products</span>
             </div>
         </a>
-        <a href="products.html">Products</a>
-        <a href="about-us.html">About</a>
-        <a href="contact-us.html">Contact</a>
+        <a href="our-products.html">Our Products</a>
+        <a href="about-us.html">About Us</a>
+        <a href="contact-us.html">Contact Us</a>
     </div>
-    <div class="page">
+    <div>
         <div class="main">
             <h1>Our Products</h1>
             <div class="button-container">
-                <button onclick="openProduct('mais')">Mais con Yelo</button>
+                <button onclick="openProduct('mais')">Mais Con Yelo</button>
                 <button onclick="openProduct('ice')">Ice Scramble</button>
                 <button onclick="openProduct('sago')">Sago’t Gulaman</button>
                 <button onclick="openProduct('mango')">Mango Sago</button>
@@ -31,10 +31,13 @@
 
             <div class="product-details" id="product-details">
                 <h2 id="product-title"></h2>
-                <p id="product-description"></p>
+                <div class="description-container">
+                    <p id="product-description"></p>
+                    <button id="learn-more-btn" style="background-color: #FFB84D;">Learn More</button>
+                </div>
                 <img id="product-image" src="" alt="Product Image">
-                <button onclick="closeProduct()" style="margin-top: 10px; background-color: #f44336;">Close</button>
-            </div>
+                <button onclick="closeProduct()" style="margin-top: 10px; background-color: #B8EA9C;">Close</button>
+            </div>            
         </div>
     </div>
 </body>
